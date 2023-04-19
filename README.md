@@ -29,7 +29,7 @@ Italy teaming up with the USA and Nazi Germany at the same time??
 Blessing is heavily inspired by Fortune, though it DOES NOT INTEND to replace or
 rival it (let's face it, this is just a boredom project made by a script kiddo,
 Fortune is on a whole 'nother level!). All it does is show one of how many
-prompts one wants to add to blessing.txt on your terminal/shell. I've designed
+prompts one wants to add to BLESSINGS.JSON on your terminal/shell. I've designed
 it with FISH in mind as it's the shell I go to on my machines, but i guess it
 would work on any shell that support greetings/startup prompts
 
@@ -49,10 +49,10 @@ A] Good question. It's mainly cause on fish writing functions and aliases is
 
 Q] What does Blessing do?
 A] Blessing is basically a low effort, boredom-driven Fortune lookalike. It
-   takes its prompts from the blessing_prompts.txt and chooses to display one of
-   them. It is randomized, so you shouldn't be seeing the same prompt over and
-   over again. Theoretically it should be allowed to add as many prompts as you
-   wish, there's only one way to find out! ;)
+   takes its prompts from BLESSINGS.JSON and chooses to display one of them. 
+   It is randomized, so you shouldn't be seeing the same prompt over and
+   over again. Theoretically it should be allowed to add as many prompts as
+   you wish, but there's only one way to find out! ;)
 
 ----------------------------------------------------------------------------
                              HOW TO USE BLESSING
@@ -60,8 +60,9 @@ A] Blessing is basically a low effort, boredom-driven Fortune lookalike. It
 
 Supposing you've already cloned the repo and have Python 3.10 or higher
 installed, simply run the run.sh file or blessing.py. In order to edit, add or
-remove prompts, simply edit the blessing_prompts.txt. To uninstall Blessing,
-simply remove the spigot_blessing folder. Simple :)
+remove prompts, simply add your entries to BLESSINGS.JSON, then add the
+corresponding variable(s) to blessing.py. To uninstall Blessing, simply remove
+the spigot_blessing folder from your machine. Simple :)
 
 I have little to no understanding on how to rice shells, I'm not sure how to do
 stuff like [this](https://imgur.com/a/5R1EyY9) on BASH or ZSH, so I will only
@@ -77,7 +78,6 @@ STEP 3] Apply the changes you made to fish_greeting:
 STEP 4] Enjoy your custom greeting messages, cause we're DONE!!! :D
 
 Really, it's THAT easy!
-
 
 
 
